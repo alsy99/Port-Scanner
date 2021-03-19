@@ -4,7 +4,7 @@ from termcolor import colored
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #                         IPv4              TCP
 # For IPv6, use AF_INET6
-socket.setdefaulttimeout(1)         # Set timeout time to 2 seconds
+socket.setdefaulttimeout(1)         # Set timeout time to 1 seconds
 
 host = input(colored("# Enter the IP address:\n=>", 'yellow'))
 choice = int(input(colored("""\nWhat would you like to do:
